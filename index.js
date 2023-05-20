@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits } = require("discord.js");
-const SpinTheWheel = require("./spin");
+const SpinTheWheel = require("./src/spin");
 require("dotenv/config");
 
 const client = new Client({
